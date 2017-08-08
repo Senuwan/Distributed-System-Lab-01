@@ -27,6 +27,7 @@ public class ClientThread extends Thread {
     }
 
     public ClientThread(Socket connection) {
+
         this.connection = connection;
     }
 }
